@@ -2,7 +2,7 @@ from google import generativeai as genai
 from chat_utils import start_recipe_chat, get_recipe_response
 from prompts import format_prompt
 
-genai.configure(api_key="AIzaSyDHnIXoQisf0mSYTAas7inr1Q54isYLTc0")
+genai.configure(api_key="")
 
 chat = start_recipe_chat()
 
